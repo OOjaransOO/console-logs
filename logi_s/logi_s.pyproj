@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="comands.py" />
     <Compile Include="console_functions.py" />
     <Compile Include="main.py" />
   </ItemGroup>
