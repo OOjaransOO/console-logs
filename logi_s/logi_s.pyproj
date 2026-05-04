@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b1e63c4e-235b-455c-bdad-6d51a6593202</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>logi_s.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="logi_s.py" />
+    <Compile Include="console_functions.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\logData.txt" />
