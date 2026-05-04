@@ -58,6 +58,7 @@ def check(message, who1, who3):
             console_print(who1, "/date - Сегодняшнюю дату")
             console_print(who1, "/path - Маршрут к программе")
             console_print(who1, "/pc - Характеристики вашего ПК")
+            console_print(who1, "/rename - Переименовывает пользователя")
         case "/calculator":
             calculator(who3)
         case "/date":
