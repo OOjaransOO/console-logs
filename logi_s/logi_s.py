@@ -148,7 +148,7 @@ def calculator(who3):
             case "^^":
                 res = x**(1/y)
             case "/stop":
-                console_print(who, "Калькулятор выключен")
+                console_print(who, "Калькулятор выключен!")
                 break
             case _:
                 res = "Ошибка, значок действия не найден"
